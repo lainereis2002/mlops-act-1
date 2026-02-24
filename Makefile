@@ -6,7 +6,7 @@ format:
 	black *.py
 
 lint:
-	flake8 . --max-line-length=88 *.py
+	flake8 --max-line-length=88 *.py
 
 test:
 	pytest -v
